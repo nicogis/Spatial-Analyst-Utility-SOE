@@ -1,0 +1,10 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>geodatabase</Value>
+      <Value>geodataset</Value>
+      <Value>json</Value>
+      <Value>soe</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+</StyleCopSettings>
