@@ -261,7 +261,7 @@ namespace Studioat.ArcGis.Soe.Rest.SAUtility
                 featureClassDescriptor.Create(featureClass, null, SAUtility.FieldNameIdWatershed);
                 IGeoDataset pourPoint = featureClassDescriptor as IGeoDataset;
 
-                IRasterAnalysisEnvironment rasterAnalysisEnvironment = new RasterAnalysisClass();
+                IRasterAnalysisEnvironment rasterAnalysisEnvironment = hydrologyOp as IRasterAnalysisEnvironment;
                 object extentProvider = Type.Missing;
                 object snapRasterData = Type.Missing;
                 rasterAnalysisEnvironment.SetExtent(esriRasterEnvSettingEnum.esriRasterEnvMaxOf, ref extentProvider, ref snapRasterData);
@@ -277,7 +277,7 @@ namespace Studioat.ArcGis.Soe.Rest.SAUtility
                 recordset.SetSourceTable(featureClassWatershed as ITable, null);
 
                 byte[] recorset = Conversion.ToJson(recordset as IRecordSet);
-                this.logger.LogMessage(ServerLogger.msgType.infoDetailed, methodName, SAUtility.MessageCodeSOE, string.Format("Watershed created with succcess. IdWatershed {0}", (int)idWatershed.Value));
+                this.logger.LogMessage(ServerLogger.msgType.infoDetailed, methodName, SAUtility.MessageCodeSOE, string.Format("Watershed created with success. IdWatershed {0}", (int)idWatershed.Value));
                 return recorset;
             }
             catch (Exception ex)

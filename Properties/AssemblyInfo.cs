@@ -44,8 +44,8 @@ using ESRI.ArcGIS.SOESupport;
 [assembly: AddInPackage("Studioat.ArcGis.Soe.Rest.SAUtility", "ef2fd61a-eef9-46a2-b89c-51b1145822ad",
     Author = "nicogis",
     Company = "Studio A&T s.r.l.",
-    Date = "11/8/2012 5:26:59 PM",
+    Date = "25/07/2019 5:26:59 PM",
     Description = "Spatial Analyst Utility",
     TargetProduct = "Server",
-    TargetVersion = "10.4",
-    Version = "1.0")]
+    TargetVersion = "10.7",
+    Version = "1.0.1")]
