@@ -11,7 +11,6 @@ namespace Studioat.ArcGis.Soe.Rest.SAUtility
     using System.Diagnostics.CodeAnalysis;
     using System.Reflection;
     using System.Runtime.InteropServices;
-    using System.Text;
     using ESRI.ArcGIS.Carto;
     using ESRI.ArcGIS.esriSystem;
     using ESRI.ArcGIS.GeoAnalyst;
@@ -283,7 +282,7 @@ namespace Studioat.ArcGis.Soe.Rest.SAUtility
             catch (Exception ex)
             {
                 this.logger.LogMessage(ServerLogger.msgType.error, methodName, SAUtility.MessageCodeSOE, ex.Message);
-                return new ObjectError("error create watershed").ToJsonObject().JsonByte();
+                return new ObjectError("Error create watershed: see log ags").ToJsonObject().JsonByte();
             }
         }
 

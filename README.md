@@ -1,6 +1,6 @@
 ﻿# Spatial Analyst Utility SOE Rest
 
-This solution (developed in c#) creates a SOE Rest for arcgis server 10.4.1 for these operations:
+This solution (developed in c#) creates a SOE Rest for arcgis server 10.7 for these operations:
 
 - Watershed
 

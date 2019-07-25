@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Studioat.ArcGis.Soe.Rest.SAUtility</RootNamespace>
     <AssemblyName>Studioat.ArcGis.Soe.Rest.SAUtility</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>SAUtility.snk</AssemblyOriginatorKeyFile>
