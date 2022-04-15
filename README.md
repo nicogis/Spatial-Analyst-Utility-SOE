@@ -6,12 +6,12 @@ This solution (developed in c#) creates a SOE Rest for arcgis server 10.7 for th
 
 Installation:
  
-a) upload file Studioat.ArcGis.Soe.Rest.SAUtility.soe (see http://resources.arcgis.com/en/help/main/10.1/0154/0154000004sm000000.htm)
+a) upload file Studioat.ArcGis.Soe.Rest.SAUtility.soe (see https://resources.arcgis.com/en/help/main/10.1/0154/0154000004sm000000.htm)
 
 b) create a service map and enable the extension 'Spatial Analyst Utility' in capabilities.
 
 c) Watershed operation
-http://hostname/instanceags/rest/services/yourservice/MapServer/exts/SAUtility/watershed
+https://hostname/instanceags/rest/services/yourservice/MapServer/exts/SAUtility/watershed
 
 Parameters:
 
